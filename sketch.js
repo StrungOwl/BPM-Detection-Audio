@@ -5,7 +5,7 @@ let bpm = 120; // Set the BPM of the song (can be detected dynamically)
 let beatInterval = (60 / bpm) * 1000; // Calculate time between beats in milliseconds
 let audioOn = false;
 
-let freqThreshold = 100; // Set the threshold for bass energy 0 is high 200 is low
+let freqThreshold = 150; // Set the threshold for bass energy 0 is high 200 is low
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
